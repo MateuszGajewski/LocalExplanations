@@ -94,7 +94,7 @@ def generate_points(clf: object, X: np.ndarray):
 
     x, e = build_constraints(A_eq, b_eq, A_lb, b_lb)
     sum_ = sum([abs(i) for i in x])
-    print(x)# / sum_)
+    print(x)  # / sum_)
     print(e)
 
 
